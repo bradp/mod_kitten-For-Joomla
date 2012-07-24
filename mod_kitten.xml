@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.7.0" client="site" method="install">
+	<name>Kitten Module</name>
+	<author>bradparbs</author>
+	<creationDate>July 2012</creationDate>
+	<copyright>Copyright BradParbs</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>brad@bradparbs.com</authorEmail>
+	<authorUrl>www.bradparbs.com</authorUrl>
+	<version>0.1</version>
+	<description>A module that shows pictures of kittens, much love to PlaceKitten.com</description>
+	<files>
+		<filename module="mod_kitten">mod_kitten.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_kitten.xml</filename>
+	</files>
+</extension>
