@@ -18,18 +18,34 @@
 		<fields name="params">
 			<fieldset name="basic">
 				<field
+					name="type"
+					type="list"
+					default=""
+					label="Select a placeholder type"
+					description="Select a placeholder type">
+					<option value="gray">Boring Gray</option>
+					<option value="kitten">Kittens</option>
+				</field>
+				<field
 					name="width"
 					type="text"
 					default="300"
 					label="Width"
 					description="The width of the kitten image" />
+					description="The width of the placeholder image" />
 				<field
 					name="height"
 					type="text"
 					default="300"
 					label="Height"
 					description="The height of the Kitten image" />
-
+					description="The height of the placeholder image" />
+				<field
+					name="text"
+					type="text"
+					default=""
+					label="Text (only for boring gray)"
+					description="Only used for boring gray, will output text in the placeholder image" />
 			</fieldset>
 		</fields>
 	</config>
