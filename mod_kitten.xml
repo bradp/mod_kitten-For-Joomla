@@ -14,4 +14,24 @@
 		<filename>index.html</filename>
 		<filename>mod_kitten.xml</filename>
 	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="width"
+					type="text"
+					default="300"
+					label="Width"
+					description="The width of the kitten image" />
+				<field
+					name="height"
+					type="text"
+					default="300"
+					label="Height"
+					description="The height of the Kitten image" />
+
+			</fieldset>
+		</fields>
+	</config>
 </extension>
+
